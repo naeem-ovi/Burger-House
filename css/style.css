@@ -1,0 +1,1023 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  font-family: "Bebas Neue", cursive;
+  font-size: 14px;
+  line-height: 24px;
+}
+h1,h2,h3,h4,h5,h6 {
+  font-family: "Alfa Slab One", cursive;
+}
+a,a:hover {
+  text-decoration: none;
+}
+/*hearder section css start here*/
+.header {
+  width: 100%;
+  background: url("../images/Group 1.png") center top no-repeat;
+  padding: 10px 0px 80px;
+  background-size: cover;
+}
+.menu {
+  width: 100%;
+  padding: 20px 0px;css
+}
+.menu .top-menu {
+  width: 100%;
+  text-align: right;
+}
+.menu .top-menu p {
+  font-size: 14px;
+  text-transform: capitalize;
+  font-weight: 700;
+  margin: 0px 10px 0px 0px;
+}
+.menu .top-menu p img {
+  margin: 0px 10px 0px 0px;
+}
+.menu .navbar-nav .nav-item .nav-link {
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #3d2514;
+  margin: 0px 0px 0px 25px;
+}
+.menu .navbar-nav .nav-item .nav-link:hover {
+  color: #bf2222;
+}
+.menu .navbar-nav .nav-item .nav-link:focus {
+  color: #bf2222;
+}
+.banner {
+  width: 100%;
+  padding: 150px 0px;
+}
+.banner .content {
+  width: 100%;
+  padding: 80px 0px;
+}
+.sub {
+  width: 41%;
+  padding: 15px;
+  border: 2px dashed #3d2514;
+  margin: 0px 0px 20px;
+}
+
+.banner .content h1 {
+  font-size: 120px;
+  line-height: 130px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #3d2514;
+  text-shadow: 8px 10px 18px #fee8bc;
+}
+.banner .content h3 {
+  font-size: 70px;
+  line-height: 80px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #3d2514;
+  text-shadow: 8px 10px 18px #fee8bc;
+}
+.banner .content .sub h4 {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin: 0px;
+  letter-spacing: 1px;
+}
+/*hearder section css end here*/
+/*feature section css start here*/
+.feature {
+  width: 100%;
+  padding: 80px 0px;
+}
+.feature .card {
+  width: 100%;
+  position: relative;
+  border: 0px;
+  border-radius: 5px;
+  margin: 15px 0px 0px;
+}
+.feature .card .card-body {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transform: translate(30px, 15px);
+}
+.feature .card .card-body h5 {
+  font-family: "Bebas Neue", cursive;
+  font-size: 22px;
+  line-height: 32px;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #fff;
+  margin: 0px;
+  letter-spacing: 1px;
+}
+.feature .card .card-body h2 {
+  font-family: "Bebas Neue", cursive;
+  font-size: 36px;
+  line-height: 38px;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #fff;
+  margin: 0px;
+  letter-spacing: 1px;
+}
+/*feature section css end here*/
+/*services section css end here*/
+.services {
+  width: 100%;
+  padding: 10px 0px 80px;
+}
+.services .title {
+  width: 100%;
+  text-align: center;
+  padding: 0px 0px 80px;
+}
+.services .title .subtitle {
+  width: 20%;
+  margin: 0px auto 30px;
+  padding: 20px;
+  background: #ffc045;
+}
+
+.services .title .subtitle h4 {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 26px;
+  line-height: 36px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #3d2514;
+  margin: 0px;
+  letter-spacing: 1px;
+}
+.services .title h1 {
+  font-family: "Alfa Slab One", cursive;
+  font-size: 46px;
+  line-height: 56px;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #3d2514;
+  letter-spacing: 1px;
+}
+.services .title p {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #3d2514;
+}
+.services .card {
+  width: 100%;
+  padding: 40px;
+  text-align: center;
+  border: 0px;
+}
+.services .card .card-img-top {
+  width: 100%;
+  height: 280px;
+}
+.services .card .card-title {
+  font-family: "Bebas Neue", cursive;
+  font-size: 36px;
+  line-height: 38px;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #3d2514;
+}
+.services .card .card-text {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #3d2514;
+}
+.services .card .card-body .btn-primary {
+  padding: 12px 35px;
+  background: #bf2222;
+  color: #fff;
+  border: 1px solid #bf2222;
+  border-radius: 0px;
+  font-family: "Alfa Slab One", cursive;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin: 15px 0px 0px 0px;
+}
+.services .card .card-body .btn-primary:hover,
+.services .card .card-body .btn-primary:focus {
+  background: transparent;
+  color: #bf2222;
+  border: 1px solid #bf2222;
+}
+/*services section css end here*/
+/*slider sectin css start here*/
+.slider {
+  width: 100%;
+  padding: 10px 0px 80px;
+}
+.slider .owl-carousel {
+  width: 100%;
+  padding: 30px;
+  box-shadow: 0px 5px 10px #ccc;
+}
+.slider .owl-carousel .item h5 {
+  font-family: "Bebas Neue", cursive;
+  font-size: 22px;
+  line-height: 32px;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #3d2514;
+  letter-spacing: 1px;
+}
+.slider .owl-carousel .item h2 {
+  font-size: 36px;
+  line-height: 38px;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #3d2514;
+  letter-spacing: 1px;
+  margin: 0px 0px 35px;
+}
+.slider .owl-carousel .item p {
+  width: 60%;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
+  color: #3d2514;
+}
+.slider .owl-carousel .item .img-fluid {
+  height: 400px;
+}
+.slider .owl-theme .owl-dots {
+  text-align: left;
+}
+.slider .owl-theme .owl-nav.disabled + .owl-dots {
+  margin-top: -30px;
+  position: relative;
+}
+.slider .owl-theme .owl-dots .owl-dot.active span {
+  background: #ffc045;
+}
+/*slider sectin css end here*/
+
+/*contact us sectin css start here*/
+.contact {
+  width: 100%;
+  padding: 80px 0px;
+  background: url(../images/bg.png) center top no-repeat;
+  background-size: cover;
+}
+.contact .title{
+  width: 100%;
+  padding: 0px 0px 80px;
+  text-align: center;
+}
+.contact .title .subtitle h4 {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 26px;
+  line-height: 36px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #3d2514;
+  margin: 0px;
+  letter-spacing: 1px;
+}
+.contact .title h1 {
+  font-family: "Alfa Slab One", cursive;
+  font-size: 46px;
+  line-height: 56px;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #3d2514;
+  letter-spacing: 1px;
+}
+.main-form{
+  width: 100%;
+}
+.main-form .form-control{
+  padding: 15px 10px;
+  border: 1px solid #bebebe;
+  border-radius: 3px;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #000;
+  background: transparent;
+}
+.main-form .btn-primary{
+  width: 100%;
+  padding: 15px 45px;
+  border-radius: 3px;
+  font-size: 14px;
+  font-family: "Alfa Slab One", cursive;
+  text-transform: uppercase;
+  font-weight: 500;
+  background: #bf2222;
+  border: 1px solid #bf2222;
+  color: #fff;
+}
+
+.main-form .form-control:focus{
+  color: #000;
+  background-color: transparent;
+  border-color: #bebebe;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 0%);
+
+}
+
+.main-form .btn-primary:hover,
+.main-form .btn-primary:focus {
+  background: transparent;
+  color: #bf2222;
+  border: 1px solid #bf2222;
+}
+
+/*contact us sectin end here*/
+
+/*footer sectin start here*/
+.footer {
+  width: 100%;
+  padding: 80px 0px 0px;
+}
+.footer .inner-footer {
+  width: 100%;
+  padding: 60px 30px 0px;
+  background: url("../images/footerbg.png")
+    center top no-repeat;
+  background-size: cover;
+}
+.text-inner {
+  width: 60%;
+  margin: 25px 0px 20px;
+  font-size: 14px;
+  line-height: 24px;
+  color: #fff;
+}
+.info {
+  width: 100%;
+}
+.info p img {
+  margin-right: 20px;
+}
+.info p {
+  font-family: "Bebas Neue", cursive;
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #fff;
+}
+.main-footer {
+  width: 100%;
+  padding: 100px 0px 10px;
+}
+.copyrights {
+  font-family: "Bebas Neue", cursive;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #fff;
+  margin: 15px 0px 5px;
+}
+.social-icons {
+  width: 100%;
+  padding: 10px 0px;
+}
+.social-icons ul {
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  text-align: right;
+}
+.social-icons ul li {
+  list-style: none;
+  display: inline-block;
+}
+.social-icons ul li a {
+  display: block;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 100%;
+  background: #fff;
+  color: #000;
+  margin: 0px 0px 0px 10px;
+  text-align: center;
+}
+.social-icons ul li a:hover,
+.social-icons ul li a:focus {
+  background: transparent;
+  color: #bf2222;
+  border: 1px solid #bf2222;
+}
+/*footer sectin end here*/
+
+/*Responsive css start here */
+@media (min-width: 279px) and (max-width: 319px){
+/*css start*/
+  /*header section*/
+  .header .logo{
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
+  .menu .top-menu p{
+    margin: 13px 0px 13px;
+    text-align: center;
+    font-size: 11px;
+  }
+  .menu .navbar-toggler{
+    background: transparent;
+    border: 1px solid #000;
+    border-radius: 3px;
+  }
+  .menu .navbar-toggler .fa{
+    color: #000;
+  }
+  .menu .navbar-nav .nav-item .nav-link{
+    margin: 10px 0px 0px 0px;
+  }
+  .banner{
+    width: 100%;
+    padding: 0px 0px;
+  }
+  .sub{
+    width: 100%;
+  }
+  .sub h4{
+    font-size: 11px;
+    line-height: 21px;
+  }
+  .content h1{
+    font-size: 56px;
+    line-height: 66px;
+  }
+  .content h3{
+    font-size: 45px;
+    line-height: 55px;
+  }
+  /*header section*/
+  /*feature section*/
+  .desktop{
+    display: none;
+  }
+  .mobile{
+    display: block;
+  }
+  .feature .card .card-body{
+    width: auto;
+  }
+  .feature .card .card-body h5{
+    font-size: 16px;
+    line-height: 26px;
+        margin: -20px 0px 0px -26px;
+  }
+  .feature .card .card-body h2{
+    font-size: 22px;
+    line-height: 32px;
+    margin: 0px 0px 0px -25px;
+  }
+  /*feature section*/
+  /*services section*/
+  .services .title .subtitle{
+    width: 91%;
+  }
+  .services .title .subtitle h4{
+    font-size: 23px;
+    line-height: 33px;
+  }
+  .services .card .card-img-top {
+    width: 100%;
+    height: 180px;
+  }
+  .services .card .card-title{
+    font-size: 23px;
+    line-height: 33px;
+  }
+  .services .card .card-text{
+    font-size: 11px;
+    line-height: 21px;
+  }
+  .services .card .card-body .btn-primary{
+    width: 100%;
+    font-size: 16px;
+    padding: 17px 2px 14px 0px;
+    margin: 0px 0px 0px 1px;
+  }
+  .services .title h1{
+    font-size: 24px;
+    line-height: 34px;
+  }
+  .services .title p{
+    padding: 10px 10px;
+  }
+  /*services section*/
+  /*slider section*/
+  .slider .owl-carousel .item h5{
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .slider .owl-carousel .item h2{
+    font-size: 16px;
+    line-height: 26px;
+    margin: -7px 0px 20px;
+  }
+  .slider .owl-carousel .item p{
+    width: 100%;
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .slider .owl-carousel .item .img-fluid {
+    height: 205px;
+  }
+  /*slider section*/
+  /*contact section*/
+  .contact{
+    padding: 0px 0px
+  }
+  .contact .title .subtitle h4{
+    font-size: 22px;
+    line-height: 32px;
+  }
+  .contact .title h1{
+    font-size: 22px;
+    line-height: 32px;
+  }
+  .main-form{
+    padding: 0px 0px;
+  }
+  /*contact section*/
+  /*footer section*/
+  .text-inner{
+    width: 100%;
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .info p{
+    font-size: 10px;
+  }
+  .copyrights{
+    text-align: center;
+    font-size: 13px;
+  }
+  .social-icons ul{
+    text-align: center;
+  }
+
+
+
+
+
+
+@media (min-width: 320px) and (max-width: 480px){
+/*css start*/
+  /*header section*/
+  .header .logo{
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
+  .menu .top-menu p{
+    margin: 13px 0px 13px;
+    text-align: center;
+  }
+  .menu .navbar-toggler{
+    background: transparent;
+    border: 1px solid #000;
+    border-radius: 3px;
+  }
+  .menu .navbar-toggler .fa{
+    color: #000;
+  }
+  .menu .navbar-nav .nav-item .nav-link{
+    margin: 10px 0px 0px 0px;
+  }
+  .banner{
+    width: 100%;
+    padding: 60px 0px;
+  }
+  .banner .content h1 {
+    font-size: 40px;
+    line-height: 50px;
+}
+  .sub{
+    width: 95%;
+  }
+  .banner .content .sub h4{
+    font-size: 35px;
+    line-height: 45px;
+    padding: auto;
+  }
+  .content h1{
+    font-size: 85px;
+    line-height: 95px;
+  }
+.banner .content h3{
+    font-size: 40px;
+    line-height: 50px;
+  }
+  /*header section*/
+  /*feature section*/
+  .desktop{
+    display: none;
+  }
+  .mobile{
+    display: block;
+  }
+  .feature .card .card-body{
+    width: auto;
+  }
+  .feature .card .card-body h5{
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .feature .card .card-body h2{
+    font-size: 31px;
+    line-height: 41px;
+  }
+  /*feature section*/
+  /*services section*/
+  .services .title .subtitle{
+    width: 70%;
+  }
+  .services .title .subtitle h4{
+    font-size: 25px;
+    line-height: 35px;
+  }
+  .services .card .card-img-top {
+    width: 100%;
+    height: 230px;
+  }
+  .services .title h1{
+    font-size: 37px;
+    line-height: 47px;
+  }
+  .services .title p{
+    padding: 10px 36px;
+  }
+  /*services section*/
+  /*slider section*/
+  .slider .owl-carousel .item h2{
+    font-size: 27px;
+    line-height: 37px;
+    margin: -7px 0px 20px;
+  }
+  .slider .owl-carousel .item p{
+    width: 100%;
+    font-size: 17px;
+    line-height: 27px;
+  }
+  .slider .owl-carousel .item .img-fluid {
+    height: 310px;
+  }
+  /*slider section*/
+  /*contact section*/
+  .contact{
+    padding: 0px 0px
+  }
+  .contact .title h1{
+    font-size: 35px;
+    line-height: 46px;
+  }
+  .main-form{
+    padding: 0px 0px;
+  }
+  /*contact section*/
+  /*footer section*/
+  .text-inner{
+    width: 100%;
+    font-size: 17px;
+    line-height: 27px;
+  }
+  .copyrights{
+    text-align: center;
+  }
+  .social-icons ul{
+    text-align: center;
+  }
+  /*footer section*/
+/*css end*/  
+}
+
+
+
+
+
+@media (min-width: 481px) and (max-width: 767px){
+/*css start*/
+.header .logo{
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
+  .menu .top-menu p{
+    margin: 10px 0px 10px;
+    text-align: center;
+  }
+  .menu .navbar-toggler{
+    background: #3d2514;
+    border: 1px solid #3d2514;
+    border-radius: 0px;
+  }
+  .menu .navbar-toggler .fa{
+    color: #fff;
+  }
+  .menu .navbar-nav .nav-item .nav-link{
+    margin: 10px 0px 0px 0px;
+  }
+  .banner{
+    padding: 20px 0px;
+  }
+  .banner .content h1 {
+    font-size: 50px;
+    line-height: 60px;
+}
+  .sub{
+    width: 80%;
+  }
+  .sub h4{
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .content h1{
+    font-size: 50px;
+    line-height: 60px;
+  }
+  .content h3{
+    font-size: 44px;
+    line-height: 54px;
+  }
+  /*header section*/
+  /*feature section*/
+  .desktop{
+    display: none;
+  }
+  .mobile{
+    display: block;
+  }
+  .feature{
+    padding: 40px 0px;
+  }
+  
+  .feature .card .card-body h2{
+    font-size: 28px;
+    line-height: 38px;
+  }
+  .feature .card .card-body h5{
+    font-size: 18px;
+    line-height: 28px;
+  }
+    .feature .card .card-body h2{
+      width: auto;
+  }
+  /*feature section*/
+  /*services section*/
+  .services .title .subtitle{
+    width: 80%;
+  }
+  .services .title .subtitle h4{
+    font-size: 36px;
+    line-height: 46px;
+  }
+  .services .title h1{
+    font-size: 38px;
+    line-height: 48px;
+  }
+  .services .title p{
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .services .title{
+    padding: 0px 0px 25px;
+  }
+    .services .card .card-title{
+    font-size: 32px;
+    line-height: 36px;
+  }
+  .services .card .card-text{
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .services .card .card-body .btn-primary{
+    padding: 10px 24px;
+    font-size: 16px;
+  }
+  /*services section*/
+  /*slider section*/
+  .slider .owl-carousel .item h2{
+    font-size: 20px;
+    line-height: 30px;
+    margin: -7px 0px 20px;
+  }
+  .slider .owl-carousel .item p{
+    width: 100%;
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .slider .owl-carousel .item .img-fluid {
+    height: 310px;
+  }
+  /*slider section*/
+  /*contact section*/
+  .contact{
+    padding: 0px 0px
+  }
+  .contact .title .subtitle h4{
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .contact .title h1{
+    font-size: 48px;
+    line-height: 58px;
+  }
+  .main-form{
+    padding: 0px 0px;
+  }
+  /*contact section*/
+  /*footer section*/
+  .text-inner{
+    width: 100%;
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .copyrights{
+    text-align: left;
+    margin-left: 0px;
+  }
+  .info p{
+    font-size: 11px;
+    line-height: 22px;
+  }
+  .social-icons ul{
+    text-align: center;
+  }
+  /*footer section*/
+    
+/*css end*/  
+}
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 1024px){
+/*css start*/
+    /*header section*/
+  .header .logo{
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
+  .menu .top-menu p{
+    margin: 13px 0px 13px;
+    text-align: center;
+    font-size: 18px;
+  }
+  .menu .navbar-toggler{
+    background: transparent;
+    border: 1px solid #000;
+    border-radius: 3px;
+    width: 8%;
+    line-height: 31px;
+  }
+  .menu .navbar-toggler .fa{
+    color: #000;
+    font-size: 30px;
+    line-height: 40px;
+    margin: 0px;
+    padding: 0px;
+  }
+  .menu .navbar-nav .nav-item .nav-link{
+    margin: 10px 0px 0px 0px;
+    font-size: 24px;
+  }
+  .banner{
+    width: 100%;
+    padding: 60px 0px;
+  }
+  .sub{
+    width: 95%;
+  }
+  .sub h4{
+    font-size: 37px;
+    line-height: 47px;
+  }
+  .content h1{
+    font-size: 156px;
+    line-height: 166px;
+  }
+  .content h3{
+    font-size: 89px;
+    line-height: 108px;
+  }
+  /*header section*/
+  /*feature section*/
+  .desktop{
+    display: none;
+  }
+  .mobile{
+    display: block;
+  }
+  .feature .card .card-body{
+    width: auto;
+  }
+  .feature .card .card-body h5{
+    font-size: 41px;
+    line-height: 51px;
+  }
+  .feature .card .card-body h2{
+    font-size: 50px;
+    line-height: 60px;
+  }
+  /*feature section*/
+  /*services section*/
+  .services .title .subtitle{
+    width: 70%;
+  }
+  .services .title .subtitle h4{
+    font-size: 36px;
+    line-height: 46px;
+  }
+  .services .title h1{
+    font-size: 65px;
+    line-height: 75px;
+  }
+  .services .title p{
+    padding: 23px 36px;
+    font-size: 28px;
+    line-height: 38px;
+  }
+  .services .card .card-img-top {
+    width: 100%;
+    height: 470px;
+  }
+  .services .card .card-title{
+    font-size: 63px;
+    line-height: 73px;
+  }
+  .services .card .card-text{
+    font-size: 21px;
+    line-height: 31px;
+  }
+  .services .card .card-body .btn-primary{
+    padding: 22px 60px;
+  }
+  /*services section*/
+  /*slider section*/
+  .slider .owl-carousel .item h2{
+    font-size: 20px;
+    line-height: 30px;
+    margin: -7px 0px 20px;
+  }
+  .slider .owl-carousel .item p{
+    width: 100%;
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .slider .owl-carousel .item .img-fluid {
+    height: 310px;
+  }
+  /*slider section*/
+  /*contact section*/
+  .contact{
+    padding: 0px 0px
+  }
+  .contact .title .subtitle h4{
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .contact .title h1{
+    font-size: 48px;
+    line-height: 58px;
+  }
+  .main-form{
+    padding: 0px 0px;
+  }
+  /*contact section*/
+  /*footer section*/
+  .text-inner{
+    width: 100%;
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .copyrights{
+    text-align: left;
+    margin-left: 0px;
+  }
+  .info p{
+    font-size: 11px;
+    line-height: 22px;
+  }
+  .social-icons ul{
+    text-align: center;
+  }
+  /*footer section*/
+/*css end*/  
+}
